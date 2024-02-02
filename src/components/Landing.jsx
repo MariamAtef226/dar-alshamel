@@ -23,7 +23,7 @@ export default function Landing() {
       </div>
 
       <div className="slogan d-flex blackbg pt-5 pb-5 justify-content-center align-items-center">
-        <div className="w-50 transparent">
+        <div className="w-50 transparent transparent-sm floatUp">
           <img className="view-on-scroll ksa-map" src={ksa_map} width="80%"/>
         </div>
         <div className="slogan-text white mt-4 mb-4 pe-3">

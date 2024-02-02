@@ -1,6 +1,6 @@
 :root {
   --black: #333333;
-  --blue: #20a3e2;
+  --blue: rgb(32, 163, 226);
   --white: #ffffff;
   --darkerBlue: #156185;
 }
@@ -15,39 +15,60 @@ a {
 
 /* RTL direction */
 .navbar ul,
-.slogan-text {
+.slogan-text,
+.about .content {
   direction: rtl;
 }
 
+/* coloring stylings */
+
 .blue {
-  color: var(--blue);
+  color: var(--blue) !important;
 }
 
 .black {
-  color: var(--black);
+  color: var(--black) !important;
 }
 
 .white {
-  color: var(--white);
+  color: var(--white) !important;
 }
 
 .blackbg {
-  background-color: var(--black);
+  background-color: var(--black) !important;
 }
+
+.bluebg {
+  background-color: var(--blue) !important;
+}
+
+/* fading & floating effects */
 
 .transparent {
   opacity: 0;
-  transition: opacity 1.2s ease;
+  transition: opacity 1.2s ease, transform 1.2s ease;
+}
+
+.floatUp {
+  transform: translateY(40px);
+}
+
+.floatLeft {
+  transform: translateX(40px);
 }
 
 @media (max-width: 768px) {
-  .transparent {
+  .transparent-sm {
     opacity: 1;
+    transform: translateY(0px);
+    transform: translateX(0px);
   }
+  
 }
 
 .view-now {
   opacity: 1;
+  transform: translateY(0px);
 }
 
 /* Navbar*/
@@ -116,4 +137,83 @@ a {
 
 .slogan {
   font-size: 5vw;
+}
+
+/* end of slogan section */
+
+/* about us */
+
+.van-container {
+  width: 40%;
+}
+.about h2,
+.services h2,
+.numbers h2 {
+  font-size: 5vw;
+}
+.about .content p {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.about .content {
+  width: 60%;
+}
+
+@media (max-width: 576px) {
+  .about .content {
+    text-align: center;
+  }
+  .about h2,
+  .services h2,
+  .numbers h2  {
+    font-size: 1.5em;
+  }
+  .about .content p {
+    font-size: 0.9em;
+  }
+  .about .content {
+    width: 100%;
+    background-color: rgba(32, 163, 226, 0.8); /* Adjust alpha value (0-1) for transparency */
+
+  }
+
+  .about {
+    background-image: url('./assets/img/about-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+
+
+
+/* end of about us secrtion*/
+
+/* services section */
+
+.service-card {
+  height: 220px;
+  border: #20a3e2 solid 1px;
+  border-radius: 10%;
+  width: 100%;
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .service-card {
+    width: 60%;
+  }
+}
+.service-content {
+  font-size: 20px;
+}
+
+
+/* stats section */
+
+.numbers .box{
+    font-size: 1.7rem;
+}
+.stats .ctr{
+    font-size: 4rem;
 }

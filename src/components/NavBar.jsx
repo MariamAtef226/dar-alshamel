@@ -25,17 +25,17 @@ export default function NavBar() {
           <div className="collapse navbar-collapse" id="collapsibleNavId">
             <ul className="navbar-nav me-md-auto ms-auto mt-2 mt-lg-0 pe-2">
               <li className="nav-item">
-                <a className="nav-link" href="#" aria-current="page">
+                <a className="nav-link" href="#about" aria-current="page">
                   من نحن
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#services">
                   خدماتنا
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#cars">
                   أسطولنا
                 </a>
               </li>
