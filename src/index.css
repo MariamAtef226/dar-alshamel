@@ -139,6 +139,16 @@ a {
   font-size: 5vw;
 }
 
+@media (max-width: 576px) {
+    .slogan {
+        font-size: 2em;
+      }
+      .ksa-map{
+        width:110%  !important;
+      }
+}
+
+
 /* end of slogan section */
 
 /* about us */
@@ -167,7 +177,7 @@ a {
   .about h2,
   .services h2,
   .numbers h2  {
-    font-size: 1.5em;
+    font-size: 2em;
   }
   .about .content p {
     font-size: 0.9em;
