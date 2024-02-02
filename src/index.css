@@ -1,7 +1,60 @@
+:root{
+    --black:#333333;
+    --blue:#20a3e2;
+    --white:#ffffff;
+    --darkerBlue:#156185;
+}
+
+body{
+    font-family: 'Rubik' !important;
+}
+
 a{
     text-decoration: none !important;
-    color: black !important;
 }
-a.active{
-    color:red !important;
+
+/* RTL direction */
+.navbar ul{
+    direction:rtl;
 }
+
+
+/* Navbar*/
+
+.navbar{
+    background-color: var(--white) !important;
+    font-weight:bold;
+}
+
+.navbar ul{
+    width:70%;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width:50px;
+}
+
+.navbar a.nav-link{
+    color:var(--blue);
+}
+
+@media (min-width:576px) and (max-width:768px){
+    .navbar ul{
+        width:90%;
+        font-size:15px;
+    }
+}
+
+.navbar button{
+    background-color: var(--blue);
+    border:none;
+    border-radius:10%;
+}
+
+.navbar .logo-container{
+    width:max-content
+}
+
+/* END OF NAVBAR STYLING */
+
