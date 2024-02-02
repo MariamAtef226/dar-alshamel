@@ -8,11 +8,11 @@ export default function NavBar() {
     <>
       <nav className="navbar navbar-expand-sm">
         <div className="container">
-          <div className="d-md-none logo-container">
+          <div className="d-sm-none logo-container">
             <img src={logo} className="logo" />
           </div>
           <button
-            className=" d-lg-none ms-auto"
+            className=" d-sm-none ms-auto"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapsibleNavId"
@@ -55,7 +55,7 @@ export default function NavBar() {
                 </a>
               </li>
             </ul>
-            <div className="d-none d-md-block logo-container">
+            <div className="d-none d-sm-block logo-container">
               <img src={logo} className="logo" />
             </div>
           </div>

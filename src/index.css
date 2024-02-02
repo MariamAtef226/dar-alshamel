@@ -1,60 +1,119 @@
-:root{
-    --black:#333333;
-    --blue:#20a3e2;
-    --white:#ffffff;
-    --darkerBlue:#156185;
+:root {
+  --black: #333333;
+  --blue: #20a3e2;
+  --white: #ffffff;
+  --darkerBlue: #156185;
 }
 
-body{
-    font-family: 'Rubik' !important;
+body {
+  font-family: "Rubik" !important;
 }
 
-a{
-    text-decoration: none !important;
+a {
+  text-decoration: none !important;
 }
 
 /* RTL direction */
-.navbar ul{
-    direction:rtl;
+.navbar ul,
+.slogan-text {
+  direction: rtl;
 }
 
+.blue {
+  color: var(--blue);
+}
+
+.black {
+  color: var(--black);
+}
+
+.white {
+  color: var(--white);
+}
+
+.blackbg {
+  background-color: var(--black);
+}
+
+.transparent {
+  opacity: 0;
+  transition: opacity 1.2s ease;
+}
+
+@media (max-width: 768px) {
+  .transparent {
+    opacity: 1;
+  }
+}
+
+.view-now {
+  opacity: 1;
+}
 
 /* Navbar*/
-
-.navbar{
-    background-color: var(--white) !important;
-    font-weight:bold;
+.navbar {
+  background-color: var(--white) !important;
+  font-weight: bold;
+  z-index: 1;
 }
 
-.navbar ul{
-    width:70%;
-    justify-content: space-between;
+.navbar ul {
+  width: 70%;
+  justify-content: space-between;
 }
 
-.navbar .logo{
-    width:50px;
+.navbar .logo {
+  width: 50px;
 }
 
-.navbar a.nav-link{
-    color:var(--blue);
+.navbar a.nav-link {
+  color: var(--blue);
 }
 
-@media (min-width:576px) and (max-width:768px){
-    .navbar ul{
-        width:90%;
-        font-size:15px;
-    }
+@media (min-width: 576px) and (max-width: 768px) {
+  .navbar ul {
+    width: 90%;
+    font-size: 15px;
+  }
 }
 
-.navbar button{
-    background-color: var(--blue);
-    border:none;
-    border-radius:10%;
+@media (max-width: 576px) {
+  .navbar .logo {
+    width: 40px;
+  }
 }
 
-.navbar .logo-container{
-    width:max-content
+.navbar button {
+  background-color: var(--blue);
+  border: none;
+  border-radius: 10%;
+}
+
+.navbar .logo-container {
+  width: max-content;
 }
 
 /* END OF NAVBAR STYLING */
 
+/* landing section */
+
+.landing {
+  height: max-content;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1.2s ease;
+}
+
+.fade-in.active {
+  opacity: 1;
+}
+
+/* end of landing section*/
+
+/* slogan section */
+
+.slogan {
+  font-size: 5vw;
+}
