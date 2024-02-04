@@ -8,9 +8,9 @@ export default function NavBar() {
     <>
       <nav className="navbar navbar-expand-sm">
         <div className="container">
-          <div className="d-sm-none logo-container">
+          {/* <div className="d-sm-none logo-container">
             <img src={logo} className="logo" />
-          </div>
+          </div> */}
           <button
             className=" d-sm-none ms-auto"
             type="button"
@@ -40,17 +40,17 @@ export default function NavBar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#service">
                   من نخدم
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#distinguish">
                   ما يميزنا
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#contact">
                   تواصل معنا
                 </a>
               </li>

@@ -5,7 +5,7 @@ import pin from "../assets/icons/home-pin.png";
 export default function Contact() {
   return (
     <>
-      <div className="contact blackbg text-center pt-5 pb-5">
+      <div id="contact" className="contact blackbg text-center pt-5 pb-5">
         <h2 className="contact-us white"> تواصل معنا </h2>
         <div className="d-flex justify-content-evenly mt-5 w-100 flex-column flex-md-row">
 

@@ -1,6 +1,7 @@
 // Function to add class when elements are in viewport
 var ctr = false;
 function handleScroll() {
+  scrollFunction()
   const targetElements = document.querySelectorAll('.transparent, .counter-mode');
 
   if (!targetElements.length) return; // Exit if no target elements found
@@ -17,13 +18,13 @@ function handleScroll() {
     ) {
       // Add your class to the target element
 
-      if (targetElement.classList.contains("counter-mode") && !ctr){
-        counter(7000,"c1",175);
-        counter(1000,"c2",25);
-        counter(200,"c3",5);
-        ctr =true;
+      if (targetElement.classList.contains("counter-mode") && !ctr) {
+        counter(7000, "c1", 175);
+        counter(1000, "c2", 25);
+        counter(200, "c3", 5);
+        ctr = true;
       }
-      else{
+      else {
         targetElement.classList.add('view-now');
       }
 
@@ -33,7 +34,7 @@ function handleScroll() {
 
 window.addEventListener('scroll', handleScroll);
 
-function counter(target, id,inc) {
+function counter(target, id, inc) {
   const incrementAmount = inc; // Set the amount by which the number increases
   let currentNumber = 0;
 
@@ -47,6 +48,17 @@ function counter(target, id,inc) {
     }
   }
   const intervalId = setInterval(updateCounter, 20);
+}
+
+
+
+function scrollFunction() {
+  let mybutton = document.getElementById("goToTop");
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
 }
 
 

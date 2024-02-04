@@ -2,7 +2,7 @@ import OnePoint from "./subcomponents/OnePoint";
 import shield from "../assets/icons/shield.png";
 import lock from "../assets/icons/lock.png";
 import destination from "../assets/icons/destination.png"
-import temp from "../assets/icons/cold.png"
+import temp from "../assets/icons/cold-black.png"
 import tracker from "../assets/icons/tracking.png"
 import driver from "../assets/icons/driver.png"
 import speed from "../assets/icons/rush.png"
@@ -14,7 +14,7 @@ import sparkle from "../assets/icons/star.png"
 export default function Distinguish() {
   return (
     <>
-      <div className="bluebg distinguish pt-5 pb-5">
+      <div id="distinguish" className="bluebg distinguish pt-5 pb-5">
         <div className="d-flex justify-content-evenly align-items-center flex-column-reverse flex-md-row ">
           <div className="pts p-2 p-md-5 pt-5 transparent floatUp">
             <OnePoint icon={shield} content="شاحنات معتمدة من هيئة الغذاء والدواء" />

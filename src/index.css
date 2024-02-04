@@ -299,19 +299,6 @@ a {
 }
 
 
-
-@media (max-width: 576px) {
-  .pt-content {
-    font-size: 1em;
-  }
-  .pts{
-    width:90%;
-  }
-  .contact-content{
-    font-size:1.8em;
-  }
-}
-
 .contact-details{
   font-size:1.4em
 }
@@ -323,7 +310,49 @@ a {
   background-color: var(--darkerBlue);
 }
 
-.smlink{
+.sm-link{
   text-decoration: none;
   color:black !important;
+}
+
+.sm-link img{
+  width:50px
+}
+
+@media (max-width: 576px) {
+  .pt-content {
+    font-size: 1em;
+  }
+  .pts{
+    width:90%;
+  }
+  .contact-content{
+    font-size:1.8em;
+  }
+
+  .sm-link img{
+    width:30px !important
+  }
+  .cpr{
+    font-size: 0.7em;
+  }
+
+
+}
+
+#goToTop {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+
+  color: var(--blue); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  border-radius: 50%; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  background-color:black;
+}
+
+#goToTop:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
