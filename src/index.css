@@ -158,7 +158,9 @@ a {
 }
 .about h2,
 .services h2,
-.numbers h2 {
+.numbers h2,
+#cars h2,
+#clients h2 {
   font-size: 5vw;
 }
 .about .content p {
@@ -176,7 +178,9 @@ a {
   }
   .about h2,
   .services h2,
-  .numbers h2  {
+  .numbers h2,
+  #cars h2 ,
+  #clients h2 {
     font-size: 2em;
   }
   .about .content p {
@@ -226,4 +230,48 @@ a {
 }
 .stats .ctr{
     font-size: 4rem;
+}
+
+#cars {
+  background-image: url('./assets/img/road-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cars-content{
+  font-size:2.4vw;
+  direction: rtl;
+  border-radius: 10px;
+}
+@media (max-width: 576px) {
+  
+.cars-content{
+  font-size:1em;
+}
+}
+
+/* clients section */
+
+.one-client{
+  width:30%;
+  height:30%;
+}
+
+.container-client {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* Style for the image inside the circular container */
+.container-client > img{
+  width: 85%;
+  height: 60%;
+  object-fit: cover; 
+}
+
+.content-client{
+  font-size:1.6em
 }
