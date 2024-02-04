@@ -159,7 +159,8 @@ a {
 .numbers h2,
 #cars h2,
 #clients h2,
-.distinguish-title h2 {
+.distinguish-title h2,
+.contact-us {
   font-size: 5vw;
 }
 .about .content p {
@@ -180,7 +181,8 @@ a {
   .numbers h2,
   #cars h2,
   #clients h2,
-  .distinguish-title h2 {
+  .distinguish-title h2,
+  .contact-us {
     font-size: 2em;
   }
   .about .content p {
@@ -288,9 +290,15 @@ a {
   border-radius: 20px;
 }
 
-.pt-content {
+.pt-content{
   font-size: 1.5em;
 }
+
+.contact-content{
+  font-size:3.6vw
+}
+
+
 
 @media (max-width: 576px) {
   .pt-content {
@@ -299,4 +307,23 @@ a {
   .pts{
     width:90%;
   }
+  .contact-content{
+    font-size:1.8em;
+  }
+}
+
+.contact-details{
+  font-size:1.4em
+}
+.contact-details-phone{
+  font-size:1.2em
+}
+
+.footer{
+  background-color: var(--darkerBlue);
+}
+
+.smlink{
+  text-decoration: none;
+  color:black !important;
 }
