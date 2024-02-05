@@ -270,7 +270,7 @@ a {
 .container-client > img {
   width: 85%;
   height: 60%;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .content-client {
