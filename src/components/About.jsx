@@ -7,7 +7,7 @@ export default function About() {
         <div className="van-container transparent transparent-sm floatLeft d-none d-md-block">
           <img src={van} width="100%" />
         </div>
-        <div className="content bluebg">
+        <div className="content">
           <h2 className="white">من نحن؟</h2>
           <p className="pt-4">
             دار الشامل شركة سعودية رائدة فى تقديم الخدمات اللوجستية والنقل

@@ -26,19 +26,18 @@ export default function App() {
 
       // Check if target element is in viewport
       if (
-        bounding.top >= 0 &&
-        bounding.left >= 0 &&
-        bounding.bottom <=
+        bounding.top <=
           (window.innerHeight || document.documentElement.clientHeight) &&
-        bounding.right <=
-          (window.innerWidth || document.documentElement.clientWidth)
+        bounding.bottom >= 0 &&
+        bounding.left <=
+          (window.innerWidth || document.documentElement.clientWidth) &&
+        bounding.right >= 0
       ) {
         // Add your class to the target element
 
         if (targetElement.classList.contains("counter-mode") && !ctr) {
           setCtr(true);
-        }else
-        {
+        } else {
           targetElement.classList.add("view-now");
         }
       }
