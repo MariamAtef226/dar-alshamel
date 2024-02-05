@@ -9,6 +9,7 @@ import NavBar from "./components/NavBar";
 import Services from "./components/Services";
 import Stats from "./components/Stats";
 
+
 export default function App() {
   let [ctr, setCtr] = useState(false);
 
