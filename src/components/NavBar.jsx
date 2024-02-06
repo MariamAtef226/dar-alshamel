@@ -8,9 +8,6 @@ export default function NavBar() {
     <>
       <nav className="navbar navbar-expand-sm">
         <div className="container">
-          {/* <div className="d-sm-none logo-container">
-            <img src={logo} className="logo" />
-          </div> */}
           <button
             className=" d-sm-none ms-auto"
             type="button"
@@ -40,7 +37,7 @@ export default function NavBar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#service">
+                <a className="nav-link" href="#clients">
                   من نخدم
                 </a>
               </li>

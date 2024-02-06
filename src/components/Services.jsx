@@ -7,7 +7,7 @@ import clock from "../assets/icons/wall-clock.png"
 export default function Services() {
   return (
     <>
-      <div id="service" className="services blackbg pt-5 pb-5">
+      <div id="services" className="services blackbg pt-5 pb-5">
         <h2 className="white text-center pb-5">خدماتنا</h2>
         <div className="d-flex row w-100 justify-content-md-evenly ps-4 pe-4 justify-content-center ms-auto me-auto">
           <Card img={thermometer} content="النقل المبرد من صفر إلى 25" width="35%"/>
