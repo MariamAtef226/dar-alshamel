@@ -1,6 +1,6 @@
 import landing_img from "../assets/img/landing_bg.png";
 import mobile_landing from "../assets/img/mobile-landing.png";
-import ksa_map from "../assets/img/ksa-map.jpg"
+import ksa_map from "../assets/img/ksa-map.png"
 
 import { useEffect, useState } from "react";
 

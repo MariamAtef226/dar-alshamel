@@ -1,6 +1,6 @@
-import factory from "../assets/icons/factory.jpg";
-import food from "../assets/icons/food.jpg";
-import medical from "../assets/icons/medical.jpg";
+import factory from "../assets/icons/factory.png";
+import food from "../assets/icons/food.png";
+import medical from "../assets/icons/medical.png";
 
 export default function Clients() {
   return (

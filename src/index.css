@@ -241,6 +241,9 @@ a {
 #cars {
   background-image: url("./assets/img/road-bg.png");
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -274,7 +277,6 @@ a {
 .container-client > img {
   width: 85%;
   height: 60%;
-  /* object-fit: cover; */
 }
 
 .content-client {
