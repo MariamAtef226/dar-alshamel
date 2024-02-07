@@ -1,7 +1,7 @@
 export default function Stats() {
   return (
     <>
-      <div className="bluebg pt-5 pb-5 stats">
+      <div className="bluebg pt-5 stats">
 
         <div className="numbers">
           <h2 className="white text-center ">راقب أرقامنا</h2>
