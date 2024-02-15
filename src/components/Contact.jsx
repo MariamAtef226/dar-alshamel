@@ -15,7 +15,7 @@ export default function Contact() {
             <img src={email} width="150px" />
             <div className="white pt-4 contact-content pb-4">البريد الإلكتروني</div>
             <div className="white fw-light contact-details">
-            test@mail.com
+            contact@dar-alshamel.sa
             </div>
           </div>
 
