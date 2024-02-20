@@ -16,7 +16,8 @@ a {
 /* RTL direction */
 .navbar ul,
 .slogan-text,
-.about .content {
+.about .content,
+.advice {
   direction: rtl;
 }
 
@@ -130,6 +131,8 @@ a {
   opacity: 1;
 }
 
+
+
 /* end of landing section*/
 
 /* slogan section */
@@ -138,12 +141,29 @@ a {
   font-size: 5vw;
 }
 
+.advice{
+  font-size: 1.8rem !important;
+  color:var(--white);
+}
+.advice li::marker {
+  content: url("./assets/list-logo.png");
+
+}
 @media (max-width: 576px) {
   .slogan {
     font-size: 2em;
   }
   .ksa-map {
     width: 110% !important;
+  }
+  .advice{
+    font-size: 1.2rem !important;
+    background-image: url("./assets/img/map-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .advice ul{
+    padding-right: 70px;
   }
 }
 

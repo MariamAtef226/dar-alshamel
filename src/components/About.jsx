@@ -23,7 +23,7 @@ export default function About() {
               ترغب فى معرفة المزيد؟
             </h4>
             <button className="btn btn-dark">
-              <a className="white" href="https://drive.google.com/file/d/18CimWjw--v6K1ZNEsJ3Inz3VHuXbVgaA/view?usp=sharing">
+              <a className="white" href="https://drive.google.com/file/d/18CimWjw--v6K1ZNEsJ3Inz3VHuXbVgaA/view?usp=sharing" target="_blank">
                 معلومات أكثر
               </a>
             </button>
