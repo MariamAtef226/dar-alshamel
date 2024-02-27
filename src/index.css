@@ -91,6 +91,10 @@ a {
   color: var(--blue);
 }
 
+.navbar a.nav-link:hover {
+  color:  rgb(6, 100, 144);
+}
+
 @media (min-width: 576px) and (max-width: 768px) {
   .navbar ul {
     width: 90%;
@@ -151,10 +155,11 @@ a {
 }
 @media (max-width: 576px) {
   .slogan {
-    font-size: 2em;
+    font-size: 1.6em;
+
   }
   .ksa-map {
-    width: 110% !important;
+    width: 100% !important;
   }
   .advice{
     font-size: 1.2rem !important;
@@ -207,6 +212,7 @@ a {
   }
   .about .content p {
     font-size: 0.9em;
+    font-weight: bold;
   }
   .about .content {
     width: 100%;

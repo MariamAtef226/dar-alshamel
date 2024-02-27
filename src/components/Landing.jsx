@@ -1,7 +1,7 @@
-import landing_img from "../assets/img/landing_bg.png";
-import mobile_landing from "../assets/img/mobile-landing.png";
+import landing_img from "../assets/img/landing_bg.jpg";
+import mobile_landing from "../assets/img/mobile-landing.jpg";
 import ksa_map from "../assets/img/ksa-map.png";
-import cars_on_map from "../assets/img/cars-map.png";
+import driver from "../assets/img/driver.png";
 import { useEffect, useState } from "react";
 
 export default function Landing() {
@@ -22,13 +22,14 @@ export default function Landing() {
         </div>
       </div>
       <div className="blackbg pb-5">
-        <div className="slogan d-flex blackbg pt-5 pb-5 justify-content-center align-items-center">
+        <div className="slogan d-flex blackbg pt-5 pb-2 pb-md-5 justify-content-center align-items-center">
           <div className="w-50 transparent transparent-sm floatUp">
             <img className="view-on-scroll ksa-map" src={ksa_map} width="80%" />
           </div>
           <div className="slogan-text white mt-4 mb-4 pe-3">
             <div>
               نقل<span className="blue"> آمن, </span>
+              <br className="d-md-none"/>
               توصيل<span className="blue"> أسرع </span>
             </div>
             <div>
@@ -37,7 +38,7 @@ export default function Landing() {
           </div>
         </div>
         <div className="advice-outer blackbg d-flex align-items-center pt-3 pb-5 ms-auto me-auto justify-content-center">
-          <div className="advice pt-2">
+          <div className="advice pt-2 ">
             <ul>
               <li className="pb-2">وفر تكاليفك مع أرقى شريك لوجيستي موثوق </li>
               <li className="pb-2">فريق عمل متخصص ومتكامل فى تقديم الحلول اللوجستية</li>
@@ -45,11 +46,11 @@ export default function Landing() {
               <li className="pb-2">تقديم جودة وخدمة مميزة تضمن لك الأمان</li>
             </ul>
           </div>
-          <div className="w-50 transparent transparent-sm floatUp text-center d-none d-md-block">
+          <div className="w-50 transparent transparent-sm floatUp text-center d-none d-lg-block">
             <img
               className="view-on-scroll ksa-map"
-              src={cars_on_map}
-              width="60%"
+              src={driver}
+              width="50%"
             />
           </div>
         </div>
