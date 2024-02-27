@@ -1,7 +1,7 @@
 import landing_img from "../assets/img/landing_bg.jpg";
 import mobile_landing from "../assets/img/mobile-landing.jpg";
 import ksa_map from "../assets/img/ksa-map.png";
-import driver from "../assets/img/driver.png";
+import driver from "../assets/img/saudiglobe.png";
 import { useEffect, useState } from "react";
 
 export default function Landing() {
