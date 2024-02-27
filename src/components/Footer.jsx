@@ -13,7 +13,7 @@ function topFunction() {
 export default function Footer() {
   return (
     <>
-      <div className="white bgblue footer d-flex pt-3 pb-3 ps-3 pe-3 align-items-center justify-content-between flex-column flex-md-row" id="footer">
+      <div className="white bluebg footer d-flex pt-3 pb-3 ps-3 pe-3 align-items-center justify-content-between flex-column flex-md-row" id="footer">
         <div className="icons d-flex ms-auto me-auto me-md-0 ms-md-0">
           <a className="sm-link p-1" href="#footer"><img src={fb}/></a>
           <a className="sm-link p-1" href="#footer"><img src={ig} /></a>
