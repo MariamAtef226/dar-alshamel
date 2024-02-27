@@ -9,7 +9,7 @@ export default function About() {
         </div>
         <div className="content pt-2 pb-2">
           <h2 className="white">من نحن؟</h2>
-          <p className="pt-4">
+          <p className="pt-4 pb-4">
             دار الشامل شركة سعودية رائدة فى تقديم الخدمات اللوجستية والنقل
             المبرد والمجمد والجاف بين وداخل المدن. <br></br>تتركز منذ نشأتها على
             توفير الاحتياجات والحلول اللازمة للقطاعات (الصحية - الصناعية -

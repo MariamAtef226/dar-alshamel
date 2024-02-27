@@ -184,8 +184,8 @@ a {
   font-size: 5vw;
 }
 .about .content p {
-  font-size: 2vw;
-  font-weight: bold;
+  font-size: 1.8vw;
+  /* font-weight: bold; */
 }
 
 .about .content {
@@ -255,7 +255,7 @@ a {
   font-size: 1.7rem;
 }
 .stats .ctr {
-  font-size: 4rem;
+  font-size: 3.4rem;
 }
 
 #cars {
@@ -321,7 +321,7 @@ a {
 }
 
 .contact-content {
-  font-size: 3.6vw;
+  font-size: 2vw;
 }
 
 .contact-details {

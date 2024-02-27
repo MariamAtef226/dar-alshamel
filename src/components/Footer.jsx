@@ -13,13 +13,13 @@ function topFunction() {
 export default function Footer() {
   return (
     <>
-      <div className="footer d-flex pt-3 pb-3 ps-3 pe-3 align-items-center justify-content-between flex-column flex-md-row" id="footer">
+      <div className="white footer d-flex pt-3 pb-3 ps-3 pe-3 align-items-center justify-content-between flex-column flex-md-row" id="footer">
         <div className="icons d-flex ms-auto me-auto me-md-0 ms-md-0">
           <a className="sm-link p-1" href="#footer"><img src={fb}/></a>
           <a className="sm-link p-1" href="#footer"><img src={ig} /></a>
           <a className="sm-link p-1" href="#footer"><img src={location}/> </a>
         </div>
-        <div className="cpr fw-bold text-center text-md-end">Dar Al-Shamel. All Rights Reserved 2024 ©</div>
+        <div className="cpr text-center text-md-end">Dar Al-Shamel. All Rights Reserved 2024 ©</div>
         <button onClick={topFunction} id="goToTop" className="btn" title="Go to top"><FontAwesomeIcon icon={faArrowUp} /></button>
       </div>
     </>
