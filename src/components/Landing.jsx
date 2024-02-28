@@ -2,6 +2,8 @@ import landing_img from "../assets/img/landing_bg.jpg";
 import mobile_landing from "../assets/img/mobile-landing.jpg";
 import ksa_map from "../assets/img/ksa-map.png";
 import driver from "../assets/img/saudiglobe.png";
+import logo_globe from "../assets/img/logoglobe.png";
+
 import { useEffect, useState } from "react";
 
 export default function Landing() {
@@ -49,7 +51,7 @@ export default function Landing() {
           <div className="w-50 transparent transparent-sm floatUp text-center d-none d-lg-block">
             <img
               className="view-on-scroll ksa-map"
-              src={driver}
+              src={logo_globe}
               width="50%"
             />
           </div>
