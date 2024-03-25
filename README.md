@@ -7,7 +7,7 @@ Responsive on all devices.
 
 ### Link to website :link:
 
-**<a href="www.dar-alshamel.sa"> Click me! </a>**
+**<a href="https://www.dar-alshamel.sa"> Click me! </a>**
 
 
 ### Author 🖊️
