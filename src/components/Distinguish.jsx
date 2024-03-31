@@ -21,7 +21,7 @@ export default function Distinguish() {
             <OnePoint icon={lock} content="تأمين على البضائع" />
             <OnePoint icon={destination} content="تغطية جميع مناطق المملكة" />
             <OnePoint icon={temp} content="تقارير عن درجات الحرارة" />
-            <OnePoint icon={tracker} content="التتبع المباشر لجميع الشحانات" />
+            <OnePoint icon={tracker} content="التتبع المباشر لجميع الشاحنات" />
             <OnePoint icon={driver} content="سائقين مدربين ومؤهلين" />
             <OnePoint icon={speed} content="نقل سريع وآمن" />
             <OnePoint icon={happy} content="خدمة عملاء" />
