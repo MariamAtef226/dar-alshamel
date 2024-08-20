@@ -1,7 +1,6 @@
 import landing_img from "../assets/img/landing_bg.jpg";
 import mobile_landing from "../assets/img/mobile-landing.jpg";
 import ksa_map from "../assets/img/ksa-map.png";
-import driver from "../assets/img/saudiglobe.png";
 import logo_globe from "../assets/img/logoglobe.png";
 
 import { useEffect, useState } from "react";
