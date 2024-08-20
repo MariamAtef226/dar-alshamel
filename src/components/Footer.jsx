@@ -1,6 +1,5 @@
 import fb from "../assets/icons/facebook.png"
 import ig from "../assets/icons/instagram.png"
-import location from "../assets/icons/gps.png"
 import x from "../assets/icons/x.png"
 import linkedin from "../assets/icons/linkedin.png"
 

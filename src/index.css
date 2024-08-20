@@ -350,6 +350,10 @@ a {
   width: 50px;
 }
 
+.tiny-link img {
+  width: 30px;
+}
+
 @media (max-width: 576px) {
   .pt-content {
     font-size: 1em;
